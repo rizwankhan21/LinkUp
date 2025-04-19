@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base theme: Dark mode -->
+    <style name="Base.Theme.VibeSent" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Keep system default dark colors -->
+        <!-- No need to override popup menu style -->
+    </style>
+
+    <!-- Optional: dialog can still be styled if needed -->
+    <style name="dialog">
+        <item name="android:windowBackground">?android:attr/colorBackground</item>
+        <item name="windowNoTitle">true</item>
+        <item name="windowMinWidthMajor">80%</item>
+        <item name="windowActionBar">false</item>
+    </style>
+</resources>
